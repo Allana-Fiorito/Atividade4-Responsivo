@@ -82,7 +82,7 @@ footer{
 {
     header{
         background-image: linear-gradient(black, rgb(172, 0, 72), rgb(59, 0, 0));
-        height: 25vh;
+        height: auto;
     }
     nav{
         column-gap: 200px;
@@ -139,4 +139,5 @@ footer{
         border-color: rgb(115, 255, 0);
         box-shadow: 0 0 40px rgb(115, 255, 0);
     }
+
 }
