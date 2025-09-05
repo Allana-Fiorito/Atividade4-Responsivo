@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 header{
-    background-image: linear-gradient( rgb(115, 0, 192), cyan);
+    background-image: linear-gradient( black,rgb(120, 0, 194), rgb(0, 19, 82));
     width: 100vw;
     height: 15vh;
 }
@@ -23,7 +23,7 @@ button{
     border: 7px solid rgb(47, 130, 255);
     border-radius: 15px;
     background-image: linear-gradient(rgb(71, 71, 71), gray);
-    color:aliceblue;
+    color: white;
     font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -76,13 +76,12 @@ footer{
 }
 .rodape{
     color:antiquewhite;
-
 }
 /*Tela de tablet*/
 @media(min-width: 679px) and (max-width: 1023px)
 {
     header{
-        background-image: linear-gradient(rgb(230, 0, 172), rgb(238, 255, 0));
+        background-image: linear-gradient(black, rgb(172, 0, 72), rgb(59, 0, 0));
         height: 25vh;
     }
     nav{
@@ -103,17 +102,17 @@ footer{
     }
     button{
         margin: 15px;
-        border-color: rgb(216, 79, 0);
+        border-color: rgb(216, 0, 83);
     }
     button:hover{
-        border-color: rgb(255, 251, 0);
-        box-shadow: 0 0 40px rgb(255, 255, 34);
+        border-color: magenta;
+        box-shadow: 0 0 40px magenta;
     }
 }
 /*Tela de celular*/
 @media(max-width: 678px){
     header{
-        background-image: linear-gradient(rgb(172, 0, 224), rgb(255, 115, 0));
+        background-image: linear-gradient(black, rgb(0, 70, 6), rgb(29, 6, 0));
         height: 40vh; 
     }
     nav{
@@ -134,10 +133,10 @@ footer{
         margin: 5px;
     }
     button{
-        border-color: rgb(189, 0, 214);
+        border-color: rgb(115, 255, 0);
     }
     button:hover{
-        border-color: rgb(255, 75, 255);
-        box-shadow: 0 0 40px rgb(255, 38, 244);
+        border-color: rgb(115, 255, 0);
+        box-shadow: 0 0 40px rgb(115, 255, 0);
     }
 }
